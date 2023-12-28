@@ -21,7 +21,7 @@ class TypesOfCoffeeController
     {
         $type = $this->manager->find($args['id']);
 
-        $response->getBody()->write(json_encode($type->getType()));
+        $response->getBody()->write(json_encode($type ? $type->getType() : 'type not found'));
 
         return $response;
     }

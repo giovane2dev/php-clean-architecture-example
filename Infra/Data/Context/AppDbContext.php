@@ -20,7 +20,7 @@ class AppDbContext implements IDatabase
             'host'     => 'localhost',
             'dbname'   => 'php-clean-archictecture',
             'user'     => 'sample_user',
-            'password' => '',
+            'password' => 't3em-Mb83g7nX2pZ',
             'charset' => 'utf8mb4'
         );
 

@@ -1,6 +1,6 @@
 <?php
 
-define('BASE_PATH', '/php-clean-architecture-example');
+define('BASE_PATH', '/learning/php-clean-architecture-example');
 
 // php settings
 ini_set("display_errors", true);

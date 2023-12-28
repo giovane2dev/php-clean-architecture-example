@@ -10,7 +10,7 @@ use Doctrine\ORM\Mapping as ORM;
  * @ORM\Table(name="types_of_coffee")
  * @ORM\Entity
  */
-class TypesOfCoffee
+class TypesOfCoffee extends Base
 {
     /**
      * @var int
@@ -24,7 +24,7 @@ class TypesOfCoffee
     /**
      * @var string
      *
-     * @ORM\Column(name="type", type="string", length=50, nullable=false)
+     * @ORM\Column(name="type", type="string", length=250, nullable=false)
      */
     private $type;
 
